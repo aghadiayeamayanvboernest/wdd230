@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color:#1E487A; /* Dark blue */
+    color: white;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    padding: 10px;
+    margin-bottom: 10px;
+}   
+
+header span {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background: black; 
+    margin: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+    font-size: 15px;
+    display: block;
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+nav ul li a:hover{
+    background-color: #b1572a;
+    color: white;
+}
+nav ul li.active{
+    background-color:#b1572a ;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+    justify-content: left;
+    border-bottom: solid 1px;
+}
+
+/* Card Sections */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+    border-top: solid 5px #1E487A ;
+    
+}
+.cards {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+    border-top: solid 5px #1E487A ;
+    
+}
+
+/* Learning Activities */
+.card h2 {
+    background: #1E487A;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+}
+.cards h2 {
+    background: #1E487A;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.cards p {
+    font-size: 1rem;
+    margin: 8px 0;
+    text-align: center;
+    padding: 10px;
+}
+.card ul li {
+    text-align: left;
+    font-size: 1rem;
+    margin: 8px 0;
+    list-style: none;
+   
+}
+
+/* Footer */
+footer {
+    background: #1E487A;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer img {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    vertical-align: middle;
+}
