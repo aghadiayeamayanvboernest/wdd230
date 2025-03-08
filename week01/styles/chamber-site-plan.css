@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&family=Playfair+Display:wght@400;600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 5px;
+}
+
+header {
+    background-color: #003366;
+    color: #FFD700;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 3px solid #FFD700;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
