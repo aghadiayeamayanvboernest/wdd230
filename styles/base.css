@@ -1,12 +1,13 @@
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: white;
+    color: black;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     text-align: center;
+    transition: background 0.3s, color 0.3s;
 }
 
 /* Header */
@@ -33,6 +34,22 @@ header span {
     font-weight: bold;
     padding: 20px;
 }
+/* Dark Mode - Only Background Changes */
+.dark-mode {
+    background-color: black;
+}
+.dark-mode h1{
+    color: white;
+}
+.darkModeToggle {
+    top: 10px;        /* Adjust vertical position */
+    right: 20px;      /* Move to the right */
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 
 /* Navigation */
 nav {
@@ -49,11 +66,11 @@ nav ul {
     gap: 3px;
 }
 
-nav ul li {
-    display: block;
+.navigation li {
+    display: none;
 }
 
-nav ul li a {
+.navigation a {
     color: white;
     text-decoration: none;
     padding: 8px 0;
@@ -63,12 +80,34 @@ nav ul li a {
 }
 
 
-nav ul li a:hover{
+.navigation a:hover{
     background-color: #b1572a;
     color: white;
 }
-nav ul li.active{
+.navigation.active{
     background-color:#b1572a ;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 50;
+    text-decoration: none;
+    color: white;
+    right: .5rem;
+    background-color: black;
+}
+#menu::before {
+    content: "≡";
+}
+#menu.show::before {
+    content: "X";
+}
+.show li {
+    display: block;
+}
+.hide {
+    display: none;
 }
 
 /* Main Content */
@@ -140,8 +179,7 @@ h1 {
     text-align: left;
     font-size: 1rem;
     margin: 8px 0;
-    list-style: none;
-   
+    list-style: none;   
 }
 
 /* Footer */

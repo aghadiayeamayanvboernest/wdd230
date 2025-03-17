@@ -3,7 +3,12 @@
         max-width: 1100px;
         margin: 0 auto;
     }
-
+        #menu {
+        display: none;
+    }
+    .navigation li {
+        display:flex;
+    }
     nav ul{
         flex-direction: row;
         justify-items: center;
