@@ -480,4 +480,72 @@ nav {
     padding-top: 10px;
 }
 
+/* Company Spotlights */
+.company-spotlights {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.company-spotlights h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #003366;
+}
+
+.spotlight-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.spotlight {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.spotlight:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.spotlight-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.spotlight-text h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color:#003366;
+}
+
+.spotlight-text p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color:#003366;
+}
+
+.spotlight-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color:#003366;
+    background-color:#FFD700;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.spotlight-button:hover {
+    background-color: #FFFFFF;
+}
+
 

@@ -104,7 +104,7 @@
     .info-cards {
         display: grid;
         grid-template-columns: 2fr 1fr; /* Weather:Testimonial ratio */
-        gap: 2rem;
+        gap: 1rem;
       }
     
       .testimonials-section {
@@ -151,4 +151,26 @@
     .footer-bottom{
         border-top: none;
     }
+
+    .company-spotlights {
+        padding: 40px;
+        background-color: #f9f9f9;
+
+    }
+
+    .spotlight-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .spotlight-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
 }
