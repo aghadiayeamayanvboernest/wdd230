@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benin City Chamber of Commerce - Home page | Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Aghadiaye Amayanvbo Ernest - chamber-home-page">
+    <meta name="author" content="Aghadiaye Amayanvbo Ernest">
+
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content= "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Areal_view_of_the_ancient_city_of_Benin.jpg/290px-Areal_view_of_the_ancient_city_of_Benin.jpg">
+    <meta property="og:url" content="https://aghadiayeamayanvboernest.github.io/wdd230/chamber/index.html">
+
+
+    <link rel="stylesheet" href=styles/normalize.css>
+    <link rel="stylesheet" href=styles/base.css>
+    <link rel="stylesheet" href=styles/larger.css>
+    
+    <!-- Font Awesome for social media icons -->
+    <!-- Font Awesome CDN -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon_chamber.ico">
+
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/chamber-logo.webp" alt="Benin Chamber of Commerce Logo" width="75" height="50">
+            <span class="name">Benin Chamber of Commerce</span>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="header-newsletter">
+            <button class="newsletter-button" onclick="window.location.href='newsletter.html';">Join Our Newsletter</button>
+        </div>
+    </header>
+    <nav>
+        <a id="menu" href="#"></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero-slider">
+            <div class="slides">
+                <!-- Slide 1 -->
+                <div class="slide active">
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="images/slide1_larger.webp">
+                        <source media="(min-width: 400px)" srcset="images/slide1_medium.webp">
+                        <img src="images/slide1_small.webp" alt="Empowering Businesses">
+                    </picture>
+                    <div class="slide-content">
+                        <h1>Empowering Businesses</h1>
+                        <p>Join the Benin Chamber of Commerce to grow your business and connect with like-minded professionals.</p>
+                        <button class="cta-button" onclick="window.location.href='membership.html';">Join Us</button>
+                    </div>
+                </div>
+        
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="images/slide4_large.webp">
+                        <source media="(min-width: 400px)" srcset="images/slide4_medium.webp">
+                        <img src="images/slide4_small.webp" alt="Networking Opportunities">
+                    </picture>
+                    <div class="slide-content">
+                        <h1>Networking Opportunities</h1>
+                        <p>Expand your network and collaborate with industry leaders in Benin City.</p>
+                        <button class="cta-button" onclick="window.location.href='events.html';">Learn More</button>
+                    </div>
+                </div>
+        
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="images/slide3_large.webp">
+                        <source media="(min-width: 400px)" srcset="images/slide3_medium.webp">
+                        <img src="images/slide3_small.webp" alt="Economic Growth">
+                    </picture>
+                    <div class="slide-content">
+                        <h1>Driving Economic Growth</h1>
+                        <p>Be part of the movement to foster innovation and economic development in our community.</p>
+                        <button class="cta-button" onclick="window.location.href='about.html';">Discover More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us">
+            <div class="about-container">
+              <h2>About Us</h2>
+              <p>
+                The Benin Chamber of Commerce is a leading voice for business in Benin City, dedicated to promoting innovation, entrepreneurship, and sustainable economic development. 
+              </p>
+              <p>
+                Since our founding, we’ve worked tirelessly to support businesses of all sizes — from emerging startups to established enterprises — providing them with tools, resources, and advocacy needed to thrive in today's dynamic economy.
+              </p>
+              <p>
+                We believe in building a united business community driven by collaboration, progress, and a shared vision for a prosperous future.
+              </p>
+              <p class="about-highlight">
+                Together, we are shaping the future of commerce in Benin City.
+              </p>
+              
+              <button class="about-cta" onclick="window.location.href='about.html';">Learn More About Us</button>
+            </div>
+        </section> 
+        <section class="our-mission">
+            <div class="mission-wrapper">
+                <div class="mission-text">
+                    <h2>Our Mission</h2>
+                    <p>
+                        At the Benin Chamber of Commerce, our mission is to empower local businesses, support entrepreneurial growth, and contribute to the sustainable economic development of Benin City.
+                    </p>
+                    <p>
+                        We aim to build a thriving business community through networking opportunities, innovative programs, and policy advocacy that benefit both startups and established enterprises.
+                    </p>
+                    <p class="quote">
+                        “Success in business comes from unity, collaboration, and vision.”  
+                    </p>
+                </div>
+                <div class="mission-image">
+                <img src="images/mission.webp" alt="Business collaboration in Benin City">
+                </div>
+            </div>
+        </section>
+        <section class="events">
+              <h2>Upcoming Events</h2>
+              <div class="event-grid">
+                <!-- JS will insert event cards here -->
+              </div>
+        </section>
+        <section class="info-cards">          
+            <!-- Testimonials Card -->
+            <div class="card testimonials-section">
+              <h2>Member Testimonials</h2>
+          
+              <!-- Testimonial 1 -->
+              <div class="testimonial">
+                <img src="images/test1.webp" alt="Sarah Oboh" class="testimonial-photo" loading="lazy">
+                <div class="testimonial-text">
+                  <p class="quote">"The Chamber has been incredibly supportive and helped my business grow."</p>
+                  <p><strong>- Sarah Oboh</strong><br>Founder, Oboh Organics</p>
+                </div>
+              </div>
+          
+              <!-- Testimonial 2 -->
+              <div class="testimonial">
+                <img src="images/test2.webp" alt="Daniel Etim" class="testimonial-photo" loading="lazy">
+                <div class="testimonial-text">
+                  <p class="quote">"Thanks to the events hosted, I've connected with amazing partners and clients."</p>
+                  <p><strong>- Daniel Etim</strong><br>CEO, Etim Ventures</p>
+                </div>
+              </div>
+          
+              <!-- Testimonial 3 -->
+              <div class="testimonial">
+                <img src="images/test3.webp" alt="Emeka Ize" class="testimonial-photo" loading="lazy">
+                <div class="testimonial-text">
+                  <p class="quote">"Great community and great initiatives! I love the learning opportunities."</p>
+                  <p><strong>- Emeka Ize</strong><br>Freelance Consultant</p>
+                </div>
+              </div>
+          
+              <!-- Testimonial 4 -->
+              <div class="testimonial">
+                <img src="images/test4.webp" alt="Linda Eweka" class="testimonial-photo" loading="lazy">
+                <div class="testimonial-text">
+                  <p class="quote">"Joining the Chamber was the best decision for my startup. The support is unmatched."</p>
+                  <p><strong>- Linda Eweka</strong><br>Owner, Eweka Fashion Hub</p>
+                </div>
+              </div>
+            </div>
+            <!-- Weather Card -->
+            <div class="card weather-card">
+              <h2>Weather Info</h2>
+              <p>🌞 Temp: <span id="temperature">--</span>°C</p>
+              <p>🌤️ Condition: <span id="condition">--</span></p>
+              <p>🧭 Page visits: <span id="visit-count">0</span></p>
+            </div>
+        </section>          
+    </main>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>&copy; <span id="currentyear"></span> ❤ Aghadiaye Amayanvbo Ernest ❤ Nigeria</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="/chamber/index.html">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Event</a></li>
+                    <li><a href="#">Directory</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <p>Follow Us:</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Benin Chamber of Commerce. All Rights Reserved.</p>
+            </div>    
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>
