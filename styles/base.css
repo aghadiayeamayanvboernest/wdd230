@@ -201,3 +201,55 @@ footer img {
     margin-left: 5px;
     vertical-align: middle;
 }
+
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto; 
+    margin-right: auto;
+    overflow: hidden;
+    grid-column: 1/3;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%; ;
+    height: auto; /* Maintain intrinsic aspect ratio */
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: auto;
+    top: 50px; 
+    left: 40px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 10px 15px; 
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
+
+  .google-map {
+    position: relative;
+    background-color: #121212; /* Dark background for contrast */
+    padding: 10px;
+    overflow: hidden;
+    max-width: 100%; /* Full width for mobile */
+    height: 300px; /* Default height for mobile */
+    width: 90%; /* Take up 90% of the viewport width */
+    margin: 20px auto; /* Center the map with spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Responsive width */
+    height: 100%; /* Responsive height */
+    border: 0; /* Remove default border */
+    border-radius: 8px; /* Match container's rounded corners */
+}

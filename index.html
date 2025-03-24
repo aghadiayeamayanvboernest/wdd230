@@ -34,7 +34,7 @@
         <span id="modeIcon">🌙</span>
     </button>
     <div class="profile-container">
-        <img src="images/ernest_profile.jpg" alt="Ernest Aghadiaye profile picture" width="75" height="100" loading="lazy">
+        <img src="images/ernest_profile.webp" alt="Ernest Aghadiaye profile picture" width="75" height="100" loading="lazy">
         <span>Aghadiaye Amayanvbo Ernest</span>
     </div>
    </header> 
@@ -48,13 +48,22 @@
     </ul>
    </nav>
    <main>
+    <div class="hero">
+        <picture>
+          <source srcset="images/aba-temple-desktop.webp" media="(min-width: 601px)">
+          <source srcset="images/aba-temple-mobile.webp" media="(max-width: 600px)">
+          <img src="images/aba-temple-desktop.webp" alt="My Favorite Latter-day Temple" loading="lazy" width="1100" height="600">
+        </picture>
+        <div class="overlay">Aba Nigeria Temple</div>
+    </div>
+      
     <h1>WDD 230: Web Frontend Development</h1>
     <section class="card">
         <h2>Learning Activities</h2>
             <ul>
             <li>Week 01: <a href="#">Layout</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a></li>
             <li>Week 02: <a href="week02/design.html">Web Design Principles</a> | <a href="https://codepen.io/aghadiayeamayanvboernest/pen/wBvpjYP">CodePen</a> | <a href="week02/bom.html">JavaScript: DOM Manipulation</a></li>
-            <li>Week 03:</li>
+            <li>Week 03: <a href="week03/images/landscape.webp">Webp</a> | <a href="week03/lazyload.html">Lazy Loading</a> | <a href="week03/responsive-images.html">Responsive Images: srcset</a> | <a href="week03/bom.html">Web Storage API - localStorage</a></li>
             <li>Week 04:</li>
             <li>Week 05:</li>
             <li>Week 06:</li>
@@ -62,11 +71,23 @@
     </section>
     <section class="cards">
         <h2>Information</h2>
-        <P>Benin City, Nigeria</P>
-        <p>🌞:<span></span></p>
-        <p>Page visits: <span></span></p>
+        <p>Benin City, Nigeria</p>
+        <p>🌞: <span></span></p>
+        <p>Page visits: <span id="visit-count">0</span></p>
     </section>
-    
+    <!--Google Map -->
+    <div class="google-map">
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=..."
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
    </main>
    <footer>
         <p>&copy; <span id="currentyear"></span>❤ Aghadiaye Amayanvbo Ernest ❤ Nigeria</p>

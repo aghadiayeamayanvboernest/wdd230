@@ -31,4 +31,17 @@
     .cards{
         grid-column: 2 / 4;
     }
+    .hero {
+        max-width: 100%;
+    }
+    .google-map {
+        grid-column: 1 / 3; /* Span across two columns */
+        max-width: 100%; /* Match the max width of the main content */
+        height: 450px; /* Larger height for desktop view */
+        width: 100%; /* Full width within the container */
+        margin: 30px auto; /* Center the map with more spacing */
+        padding:0; /* Add more padding for desktop */
+        border-radius: 10px; /* Slightly larger rounded corners */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow for desktop */
+    }
 }

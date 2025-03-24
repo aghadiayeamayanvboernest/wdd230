@@ -41,3 +41,24 @@ darkModeToggle.addEventListener("click", () => {
     }
 });
 
+
+// Select the element where the visit count will be displayed
+const visitCountElement = document.getElementById("visit-count");
+
+// Check if the 'pageVisits' key exists in localStorage
+let visitCount = localStorage.getItem("pageVisits");
+
+// If it doesn't exist, initialize it to 0
+if (!visitCount) {
+    visitCount = 0;
+}
+
+// Increment the visit count
+visitCount++;
+
+// Update the visit count in localStorage
+localStorage.setItem("pageVisits", visitCount);
+
+// Display the visit count on the page
+visitCountElement.textContent = visitCount;
+
