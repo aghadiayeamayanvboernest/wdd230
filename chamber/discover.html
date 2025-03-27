@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benin Chamber of Commerce - Home page | Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Aghadiaye Amayanvbo Ernest - chamber-home-page">
+    <meta name="author" content="Aghadiaye Amayanvbo Ernest">
+
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content= "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Areal_view_of_the_ancient_city_of_Benin.jpg/290px-Areal_view_of_the_ancient_city_of_Benin.jpg">
+    <meta property="og:url" content="https://aghadiayeamayanvboernest.github.io/wdd230/chamber/index.html">
+
+
+    <link rel="stylesheet" href=styles/normalize.css>
+    <link rel="stylesheet" href=styles/base.css>
+    <link rel="stylesheet" href=styles/larger.css>
+    
+    <!-- Font Awesome for social media icons -->
+    <!-- Font Awesome CDN -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon_chamber.ico">
+
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/chamber-logo.webp" alt="Benin Chamber of Commerce Logo" width="75" height="50">
+            <h1>Benin Chamber of Commerce</h1>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="header-newsletter">
+            <button class="newsletter-button" onclick="window.location.href='newsletter.html';">Join Our Newsletter</button>
+        </div>
+    </header>
+    <nav>
+        <a id="menu" href="#"></a>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content-wrapper">
+          <aside class="sidebar">
+            
+            <section class="sidebar-section">
+              <h3>Welcome Message</h3>
+              <p id="visit-message"></p>
+            </section>
+      
+            <section class="sidebar-section">
+              <blockquote>
+                <p id="quote-of-the-day"></p>
+              </blockquote>
+            </section>
+      
+            <section class="sidebar-section">
+              <h3>Demographics</h3>
+              <p><strong>Population:</strong> 2,000,000; <strong>Median Age:</strong> 30; <strong>Age Distribution:</strong> 30% Children, 40% Adults, 30% Seniors.</p>
+              <p>
+                Benin City, the vibrant heart of Edo State, is rich in culture, history, and economic opportunities. 
+                From its iconic bronze sculptures that highlight its deep-rooted artistry to its bustling marketplaces and thriving industries, Benin offers an unforgettable experience for visitors and investors alike. 
+                Discover the city’s cultural heritage, explore emerging business opportunities, and enjoy the warmth of its people. 
+                Whether you’re here to experience the historical landmarks or to explore the growing commerce and trade sector, Benin City is a destination filled with promise and potential.
+              </p>
+            </section>
+      
+            <section class="sidebar-section">
+              <h3>Upcoming Events</h3>
+              <ul class="event-list">
+                <!-- Repeat for each event -->
+                <li class="event-items">
+                  <p><strong>Business Networking Expo 2024</strong> - Connecting Minds, Building Opportunities!</p>
+                  <p>Date: 20th December, 2024 | Venue: Benin Civic Center.</p>
+                </li>
+                <li class="event-items">
+                  <p><strong>Cultural Heritage (Igue) Festival</strong> - Preserving Traditions, Celebrating Heritage!</p>
+                  <p>Date: 27th December, 2024 | Venue: Oba's Palace Grounds.</p>
+                </li>
+                <li class="event-items">
+                  <p><strong>Edo Tech Summit</strong> - Shaping Tomorrow's Innovations Today!</p>
+                  <p>Date: 10th January, 2025 | Venue: Edo Innovation Hub.</p>
+                </li>
+                <li class="event-items">
+                  <p><strong>Farmers Market</strong> - Fresh Finds, Local Vibes!</p>
+                  <p>Date: 25th January, 2025 | Venue: Vegetable Market, Ehor.</p>
+                </li>
+                <li class="event-items">
+                  <p><strong>Art Fair</strong> - Inspiring Creativity, One Brushstroke at a Time!</p>
+                  <p>Date: 1st March, 2025 | Venue: Oba Akenzua Cultural Center, Airport Road.</p>
+                </li>
+              </ul>
+            </section>
+      
+            <section class="sidebar-section">
+              <h3>Event Calendar</h3>
+              <table>
+                <tr><th>Date</th><th>Event</th></tr>
+                <tr><td>Dec 20</td><td>Business Networking Expo 2024</td></tr>
+                <tr><td>Dec 27</td><td>Igue Festival</td></tr>
+                <tr><td>Jan 10</td><td>Edo Tech Summit</td></tr>
+              </table>
+            </section>
+      
+            <section class="sidebar-section">
+              <h3>Top Attractions</h3>
+              <p><strong>Okomu National Park</strong> - A serene spot for wildlife game reserve, watersports and family picnics.</p>
+              <img src="images/ovia2.webp" alt="Ovia Sand Beach" loading="lazy" width="322" height="156">
+              <img src="images/ovia1.webp" alt="Ovia Waterside" loading="lazy" width="322" height="156">
+            </section>
+      
+            <section class="sidebar-section weather-card">
+              <h3>Current Weather</h3>
+              <div class="weather-info">
+                <img id="weather-icon" src="" alt="Weather Icon" />
+                <p><span id="temp">--</span>°C - <span id="condition">--</span></p>
+              </div>
+              <h4>3-Day Forecast:</h4>
+              <ul id="forecast">
+                <!-- Injected dynamically -->
+              </ul>
+              <p>Page Visits: <span id="visit-counter">0</span></p>
+            </section>
+      
+            <section id="calendar-section" class="sidebar-section">
+              <h3>Schedule Your Events</h3>
+              <p>
+                Use the calendar below to view upcoming events or schedule your own activities. 
+                Simply click on a date to add a new event or explore event details for any selected day.
+              </p>
+              <iframe
+                src="https://calendar.google.com/calendar/embed?src=your_calendar_id&ctz=Africa/Lagos"
+                class="calendar-frame"
+                width="100%"
+                height="600"
+                frameborder="0"
+                scrolling="no">
+              </iframe>
+            </section>
+      
+          </aside>
+          <section class="main-content">
+            <h3>Local Photos of Interest</h3>
+            <div class="photo-gallery">
+                <figure>
+                    <img src="images/Bini-Bronze.webp" alt="Bini-Bronze" loading="lazy" width="300" height="200">
+                    <figcaption>Bini Royal Bronze Carvings</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Bronze-Carvings.webp" alt="Bronze-Carvings" loading="lazy" width="300" height="200">
+                    <figcaption>Bronze Carvings</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/City-Center.webp" alt="City-Center" loading="lazy" width="300" height="200">
+                    <figcaption>City Center - Ring Road</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Cultural-Dance.webp" alt="Cultural Dance" loading="lazy" width="300" height="200">
+                    <figcaption>Bini Women Band</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Ekpu-Masquerade.webp" alt="Ekpu Masquerade" loading="lazy" width="300" height="200">
+                    <figcaption>Ekpo Masquerade</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Igue-Festival.webp" alt="Igue Festival" loading="lazy" width="300" height="200">
+                    <figcaption>Annual Igue Festival</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Ewuwu-Dance.webp" alt="Ewuwu Dance" loading="lazy" width="300" height="200">
+                    <figcaption>Ewuwu Dance</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/okomu.webp" alt="Okomu Game Reserve" loading="lazy" width="300" height="200">
+                    <figcaption>Okomu Game Reserve</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Okomuo-Oil.webp" alt="Okomuo Oil Palm" loading="lazy" width="300" height="200">
+                    <figcaption>Okomu Oil Palm</figcaption>
+                </figure>
+            </div>
+          </section>
+        </div>
+    </main>
+          
+    <footer class="site-footer">
+      <div class="footer-container">
+          <div class="footer-info">
+              <p>&copy; <span id="currentyear"></span> ❤ Aghadiaye Amayanvbo Ernest ❤ Nigeria</p>
+              <p>Last Modified: <span id="lastModified"></span></p>
+          </div>
+          <div class="footer-links">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="discover.html">Discover</a></li>
+                  <li><a href="#">Event</a></li>
+                  <li><a href="#">Directory</a></li>
+              </ul>
+          </div>
+          <div class="footer-social">
+              <p>Follow Us:</p>
+              <div class="social-icons">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2025 Benin Chamber of Commerce. All Rights Reserved.</p>
+          </div>    
+      </div>
+  </footer>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/discover.js"></script>
+</body>
+</html>

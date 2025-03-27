@@ -1,3 +1,14 @@
+// Update the current year in the footer
+const currentYearElement = document.getElementById("currentyear");
+if (currentYearElement) {
+  currentYearElement.textContent = new Date().getFullYear();
+}
+
+// Update the last modified date in the footer
+const lastModifiedElement = document.getElementById("lastModified");
+if (lastModifiedElement) {
+  lastModifiedElement.textContent = document.lastModified;
+}
 
 const hambutton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
@@ -88,14 +99,4 @@ events.forEach(event => {
 
     // Append the event card to the grid
     eventGrid.appendChild(eventCard);
-});
-  
-
-
-// Get current year for the footer
-const currentYear = new Date().getFullYear();
-document.getElementById("currentyear").textContent = currentYear;
-
-// Get the last modified date of the document   
-const lastModified = document.lastModified;
-document.getElementById("lastModified").textContent = "Last Modification: " + lastModified;
+  });
