@@ -3,23 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development</title>
-    <meta name="description" content="WDD 230 - Web Frontend Development - Aghadiaye Amayanvbo Ernest - Form Validation - WDD 230 ">
+    <title>Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development - Form Validation</Form></title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Aghadiaye Amayanvbo Ernest - Form Validation - WDD 230">
     <meta name="author" content="Aghadiaye Amayanvbo Ernest">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content= "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Areal_view_of_the_ancient_city_of_Benin.jpg/290px-Areal_view_of_the_ancient_city_of_Benin.jpg">
+    <meta property="og:url" content="https://aghadiayeamayanvboernest.github.io/wdd230/index.html">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-larger.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+
+
 </head>
 <body>
-
     <header>
-        <h1>WDD 230 - Form Page</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="form.html" class="active">Form</a></li>
-            </ul>
-        </nav>
-    </header>
-
+     <button id="darkModeToggle">
+         <span id="modeIcon">🌙</span>
+     </button>
+     <div class="profile-container">
+         <img src="images/ernest_profile.webp" alt="Ernest Aghadiaye profile picture" width="75" height="100" loading="lazy">
+         <span>Aghadiaye Amayanvbo Ernest</span>
+     </div>
+    </header> 
+    <nav>
+     <a id="menu" href="#"></a>
+     <ul class="navigation">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="chamber/index.html">Chamber</a></li>
+         <li><a href= "week01/chamber-site-plan.html">Site Plan</a></li>
+         <li><a href="form.html">Form</a></li>
+     </ul>
+    </nav>
     <main>
         <h2>Account Registration</h2>
         <form action="record.html" method="get">
@@ -48,11 +76,12 @@
             <button type="submit">Submit</button>
         </form>
     </main>
-
     <footer>
-        <p>&copy; 2025 WDD 230 - Aghadiaye Amayanvbo Ernest</p>
-    </footer>
-
+        <p>&copy; <span id="currentyear"></span>❤ Aghadiaye Amayanvbo Ernest ❤ Nigeria</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+   </footer>
+   <script src="scripts/getDates.js"></script>
     <script src="scripts/form.js"></script>
 </body>
+
 </html>
