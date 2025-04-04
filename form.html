@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Aghadiaye Amayanvbo Ernest - Form Validation - WDD 230 ">
+    <meta name="author" content="Aghadiaye Amayanvbo Ernest">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+
+    <header>
+        <h1>WDD 230 - Form Page</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html" class="active">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Account Registration</h2>
+        <form action="record.html" method="get">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required 
+                   pattern="[a-zA-Z0-9]{8,}" 
+                   title="Password must be at least 8 characters long and contain only letters and numbers.">
+            
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <p id="password-error" class="error-message"></p>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required
+                pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                title="Please enter a valid BYU-Idaho email address (e.g., user@byui.edu)">
+            <span id="email-error" class="error-message"></span>
+            
+            <label for="rating">Page Rating:</label>
+            <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5">
+            <span id="rating-value">5</span>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 WDD 230 - Aghadiaye Amayanvbo Ernest</p>
+    </footer>
+
+    <script src="scripts/form.js"></script>
+</body>
+</html>
