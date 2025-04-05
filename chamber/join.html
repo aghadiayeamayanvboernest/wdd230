@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Benin Chamber of Commerce - Membership Form</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Aghadiaye Amayanvbo Ernest - Join the Benin Chamber of Commerce today and unlock opportunities for business growth, networking, and access to valuable resources. Become a member and thrive!">
+    <meta name="author" content="Aghadiaye Amayanvbo Ernest">
+
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Areal_view_of_the_ancient_city_of_Benin.jpg/290px-Areal_view_of_the_ancient_city_of_Benin.jpg">
+    <meta property="og:url" content="https://aghadiayeamayanvboernest.github.io/wdd230/chamber/index.html">
+
+
+    <link rel="stylesheet" href=styles/normalize.css>
+    <link rel="stylesheet" href=styles/base.css>
+    <link rel="stylesheet" href=styles/larger.css>
+    
+    <!-- Font Awesome for social media icons -->
+    <!-- Font Awesome CDN -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon_chamber.ico">
+
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/chamber-logo.webp" alt="Benin Chamber of Commerce Logo" width="75" height="50">
+            <h1>Benin Chamber of Commerce</h1>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="header-newsletter">
+            <button class="newsletter-button" onclick="window.location.href='join.html';">Join Our Newsletter</button>
+        </div>
+    </header>
+    <nav>
+        <a id="menu" href="#"></a>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main class="main-form">
+        <section class="form-container">
+            <h2>Become a Member</h2>
+            <form action="thankyou.html" method="get">
+            <!-- First Name -->
+            <label for="first-name">First Name:
+                <input type="text" id="first-name" name="first-name" required placeholder="John">
+            </label>
+
+            <!-- Last Name -->
+            <label for="last-name">Last Name:
+                <input type="text" id="last-name" name="last-name" required placeholder="Doe">
+            </label>
+
+            <!-- Title/Position -->
+            <label for="title">Title or Position:
+                <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" placeholder="Marketing Lead">
+            </label>
+
+            <!-- Email -->
+            <label for="email">Email Address:
+                <input type="email" id="email" name="email" required placeholder="example@example.com">
+            </label>
+
+            <!-- Phone -->
+            <label for="phone">Phone Number:
+                <input type="tel" id="phone" name="phone" required placeholder="0803-123-4567">
+            </label>
+
+            <!-- Business Name -->
+            <label for="business-name">Business/Organization Name:
+                <input type="text" id="business-name" name="business-name" required placeholder="ABC Limited">
+            </label>
+
+            <!-- Membership Level -->
+            <label for="membership-level">Membership Level:
+                <select id="membership-level" name="membership-level" required>
+                <option value="" disabled selected>Select a level</option>
+                <option value="NP">NP Membership (No Fee)</option>
+                <option value="Bronze">Bronze Membership</option>
+                <option value="Silver">Silver Membership</option>
+                <option value="Gold">Gold Membership</option>
+                </select>
+            </label>
+
+            <!-- Description -->
+            <label for="description">Business/Organization Description:
+                <textarea id="description" name="description" required placeholder="Tell us about your organization..."></textarea>
+            </label>
+
+            <!-- Timestamp -->
+            <input type="hidden" id="timestamp" name="timestamp">
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit Membership Form">
+            </form>
+        </section>
+
+        <!-- Membership Benefits Sidebar -->
+        <aside class="membership-benefits">
+            <h3>Membership Benefits</h3>
+
+            <div class="membership-level">
+            <h4>NP Membership</h4>
+            <ul>
+                <li>No cost for nonprofits</li>
+                <li>Basic event invitations</li>
+                <li>Monthly email updates</li>
+            </ul>
+            </div>
+
+            <div class="membership-level">
+            <h4>Bronze Membership</h4>
+            <ul>
+                <li>All NP benefits</li>
+                <li>Business listed on homepage</li>
+                <li>Quarterly member-only events</li>
+            </ul>
+            </div>
+
+            <div class="membership-level">
+            <h4>Silver Membership</h4>
+            <ul>
+                <li>All Bronze benefits</li>
+                <li>Free training sessions</li>
+                <li>Premium newsletter placement</li>
+            </ul>
+            </div>
+
+            <div class="membership-level">
+            <h4>Gold Membership</h4>
+            <ul>
+                <li>All Silver benefits</li>
+                <li>Spotlight homepage position</li>
+                <li>Priority registration & support</li>
+            </ul>
+            </div>
+        </aside>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>&copy; <span id="currentyear"></span> ❤ Aghadiaye Amayanvbo Ernest ❤ Nigeria</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Event</a></li>
+                    <li><a href="#">Directory</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <p>Follow Us:</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Benin Chamber of Commerce. All Rights Reserved.</p>
+            </div>    
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/join.js"></script>
+</body>
+</html>    

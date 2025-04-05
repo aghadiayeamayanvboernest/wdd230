@@ -766,3 +766,120 @@ figcaption {
 }
 
 
+
+/* jpin page styling */
+
+
+
+
+/* Typography */
+
+.main-form{
+  padding: 1rem;
+}
+h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #003366;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 4px;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  font-size: .8rem;
+  margin-bottom: 1rem;
+  background-color: #f5f5f5;
+  border-left: #003366  5px solid;
+}
+
+input[type="submit"] {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #002244;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.membership-benefits {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+}
+
+.membership-benefits h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.membership-benefits h4{
+  text-align: left;
+  font-size: .9rem;
+}
+
+
+.membership-benefits ul {
+  padding-left: 1.5rem;
+}
+
+.membership-benefits li {
+  margin-bottom: 0.5rem;
+  color: #000;
+  font-size: 0.7rem; 
+}
+#price-display {
+  font-size: .9rem;
+  color: black;
+  margin-top: .1rem;
+  text-align: right;
+}
+
+
+
+
+
+/* thanks you page  */
+.thankyou {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  text-align: center;
+}
+.thankyou h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.thankyou a {
+  font-size: 1rem;
+  color: #333;
+  background-color:#ffd700;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
