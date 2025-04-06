@@ -39,3 +39,9 @@ document.getElementById('membership-level').addEventListener('change', function(
     priceDisplay.textContent = `Price: ${membershipPrices[this.value]}`;
     this.parentNode.appendChild(priceDisplay);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const timestampInput = document.getElementById("timestamp");
+    const now = new Date();
+    timestampInput.value = now.toISOString(); // e.g., 2025-04-04T14:30:00.000Z
+  });
