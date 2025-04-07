@@ -1,0 +1,61 @@
+{
+    "wardMembers": [
+      {
+        "familyName": "Johnson",
+        "moveInDate": "2023-10-01",
+        "numberOfPeople": 5,
+        "visitedByBishopric": true,
+        "members": [
+          {
+            "name": "Michael Johnson",
+            "gender": "Male",
+            "birthdate": "1980-03-15"
+          },
+          {
+            "name": "Sarah Johnson",
+            "gender": "Female",
+            "birthdate": "1982-07-22"
+          },
+          {
+            "name": "Emma Johnson",
+            "gender": "Female",
+            "birthdate": "2010-04-05"
+          },
+          {
+            "name": "Liam Johnson",
+            "gender": "Male",
+            "birthdate": "2012-11-30"
+          },
+          {
+            "name": "Noah Johnson",
+            "gender": "Male",
+            "birthdate": "2015-09-18"
+          }
+        ]
+      },
+      {
+        "familyName": "Obi",
+        "moveInDate": "2024-01-20",
+        "numberOfPeople": 3,
+        "visitedByBishopric": false,
+        "members": [
+          {
+            "name": "Chinedu Obi",
+            "gender": "Male",
+            "birthdate": "1990-06-14"
+          },
+          {
+            "name": "Ada Obi",
+            "gender": "Female",
+            "birthdate": "1993-08-09"
+          },
+          {
+            "name": "Amaka Obi",
+            "gender": "Female",
+            "birthdate": "2020-02-25"
+          }
+        ]
+      }
+    ]
+  }
+  

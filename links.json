@@ -1,0 +1,101 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "HG Layout"
+        },
+        {
+          "url": "week01/media-query.html",
+          "title": "mQueries"
+        },
+        {
+          "url": "#",
+          "title": "JS Pen"
+        }
+      ]
+    },
+    {
+      "week": "Week 2",
+      "links": [
+        {
+          "url": "week02/design.html",
+          "title": "Web Design Principles"
+        },
+        {
+          "url": "https://codepen.io/aghadiayeamayanvboernest/pen/wBvpjYP",
+          "title": "CodePen"
+        },
+        {
+          "url": "week02/bom.html",
+          "title": "JavaScript: DOM Manipulation"
+        }
+      ]
+    },
+    {
+      "week": "Week 3",
+      "links": [
+        {
+          "url": "week03/images/landscape.webp",
+          "title": "Webp"
+        },
+        {
+          "url": "week03/lazyload.html",
+          "title": "Lazy Loading"
+        },
+        {
+          "url": "week03/responsive-images.html",
+          "title": "Responsive Images: srcset"
+        },
+        {
+          "url": "week03/bom.html",
+          "title": "Web Storage API"
+        }
+      ]
+    },
+    {
+      "week": "Week 4",
+      "links": [
+        {
+          "url": "https://codepen.io/aghadiayeamayanvboernest/pen/vYoGbRo",
+          "title": "CodePen"
+        },
+        {
+          "url": "week04/tablebuild.html",
+          "title": "HTML Tables"
+        },
+        {
+          "url": "/Form-start/index.html",
+          "title": "HTML Forms"
+        }
+      ]
+    },
+    {
+      "week": "Week 5",
+      "links": [
+        {
+          "url": "https://codepen.io/aghadiayeamayanvboernest/pen/jEORrvN",
+          "title": "CSS Pseudo-elements"
+        },
+        {
+          "url": "week05/new-ward-members.json",
+          "title": "JSON"
+        },
+        {
+          "url": "week05/prophets.html",
+          "title": "Latter-day Prophets"
+        },
+        {
+          "url": "week05/weather.html",
+          "title": "Weather API"
+        }
+      ]
+    },
+    {
+      "week": "Week 6",
+      "links": []
+    }
+  ]
+}

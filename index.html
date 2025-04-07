@@ -60,20 +60,23 @@
     <h1>WDD 230: Web Frontend Development</h1>
     <section class="card">
         <h2>Learning Activities</h2>
-            <ul>
-            <li>Week 01: <a href="#">Layout</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a></li>
-            <li>Week 02: <a href="week02/design.html">Web Design Principles</a> | <a href="https://codepen.io/aghadiayeamayanvboernest/pen/wBvpjYP">CodePen</a> | <a href="week02/bom.html">JavaScript: DOM Manipulation</a></li>
-            <li>Week 03: <a href="week03/images/landscape.webp">Webp</a> | <a href="week03/lazyload.html">Lazy Loading</a> | <a href="week03/responsive-images.html">Responsive Images: srcset</a> | <a href="week03/bom.html">Web Storage API - localStorage</a></li>
-            <li>Week 04: <a href="https://codepen.io/aghadiayeamayanvboernest/pen/vYoGbRo">CodePen</a> | <a href="week04/tablebuild.html">HTML Tables for Data Presentation</a> | <a href="/Form-start/index.html">HTML Forms</a></li>
-            <li>Week 05:</li>
-            <li>Week 06:</li>
-        </ul>     
+        <ul>
+          <!-- Content will be dynamically inserted here -->
+        </ul>
     </section>
-    <section class="cards">
-        <h2>Information</h2>
-        <p>Benin City, Nigeria</p>
-        <p>🌞: <span></span></p>
-        <p>Page visits: <span id="visit-count">0</span></p>
+    <section class="weather-card">
+        <h2>Current Weather in <span id="city-name">Benin City</span></h2>
+        <div class="weather-content">
+        <div class="weather-icon">
+            <img id="weather-icon" src="" alt="Weather icon">
+        </div>
+        <div class="weather-info">
+            <p>☀️<span id="temperature"></span>°F - <span id="weather-description"></span></p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind: <span id="wind-speed"></span>m/s</p>
+            <p>Page visits: <span id="visit-count">0</span></p>
+        </div>
+        </div>
     </section>
     <!--Google Map -->
     <div class="google-map">
@@ -94,5 +97,6 @@
         <p>Last Modified: <span id="lastModified"></span></p>
    </footer>
    <script src="scripts/getDates.js"></script>
+   <script src="scripts/link.js"></script>
 </body>
 </html>

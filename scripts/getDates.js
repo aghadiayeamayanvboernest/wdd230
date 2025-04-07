@@ -62,3 +62,69 @@ localStorage.setItem("pageVisits", visitCount);
 // Display the visit count on the page
 visitCountElement.textContent = visitCount;
 
+
+
+// Weather API Function for Benin City
+async function getWeather() {
+    const apiKey = 'fcb9c4b2ba563009b0f04f129f01e52d'; // 🔑 
+    const city = 'Benin City,NG';
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+    
+    try {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+      const data = await response.json();
+      console.log("Weather Data:", data); // Debug log
+      displayWeather(data);
+    } catch (error) {
+      console.error("Error fetching weather:", error);
+      const weatherCard = document.querySelector('.weather-card');
+      if (weatherCard) {
+        weatherCard.innerHTML = `
+          <h2>Weather Unavailable</h2>
+          <p>${error.message || "Service temporarily down"}</p>
+        `;
+      }
+    }
+  }
+  
+  function displayWeather(data) {
+    const temperature = document.querySelector('#temperature');
+    const description = document.querySelector('#weather-description');
+    const humidity = document.querySelector('#humidity');
+    const icon = document.querySelector('#weather-icon');
+    const windSpeed = document.querySelector('#wind-speed');
+    
+    // Ensure data is available
+    if (data.main && data.weather && data.wind) {
+      temperature.textContent = Math.round(data.main.temp);
+      description.textContent = data.weather[0].description;
+      humidity.textContent = data.main.humidity;
+      windSpeed.textContent = data.wind.speed;
+    
+      // Set weather icon (corrected base URL)
+      const iconUrl = `https://openweathermap.org/img/w/10d.png`;
+      icon.setAttribute('src', iconUrl);
+      icon.setAttribute('alt', data.weather[0].description);
+    
+      // Update city name display
+      const cityNameElement = document.querySelector('#city-name');
+      if (cityNameElement) {
+        cityNameElement.textContent = data.name;
+      }
+    } else {
+      console.error("Weather data is incomplete.");
+      document.querySelector('.weather-card').innerHTML = `
+        <h2>Weather Unavailable</h2>
+        <p>Incomplete weather data received.</p>
+      `;
+    }
+  }
+  
+  // Call the function when page loads
+  window.addEventListener('load', getWeather);
+  
+  // Refresh weather every 30 minutes
+  setInterval(getWeather, 1800000);
+  
+
