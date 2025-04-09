@@ -948,3 +948,6 @@ margin-bottom: 1rem;
 .member-card a {
   text-decoration: none;
 }
+#directory.list .member-card:nth-child(even) {
+	background-color: #bed;
+}
