@@ -305,4 +305,26 @@
         padding: 15rem;
         text-align: center;
       }
+      /* styling of the directory page  */
+
+      #directory.grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+      }
+    
+      #directory.list {
+        display: flex;
+        gap: 1rem;
+        text-align: left;
+      }
+  
+      #directory.list .member-card{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-between;
+      }
+      .directory-page{
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+
 }

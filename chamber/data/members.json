@@ -1,0 +1,165 @@
+
+{
+    "members": [
+      {
+        "name": "Alpha Solar Solutions",
+        "address": "123 Solar St, Benin City",
+        "phone": "+234 801 234 5678",
+        "website": "https://alphasolar.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD-f3blkFsa1DVhJBJ5nzsWE4jSnQ71zPItpd-_zDKrWJgIWmZNxVMQC2yPRaD0kYnoEg&usqp=CAU",
+        "membership": "Gold"
+      },
+      {
+        "name": "Tech Haven Ltd.",
+        "address": "45 Code Rd, Benin City",
+        "phone": "+234 802 345 6789",
+        "website": "https://techhaven.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgPU_BD2HScywSpFfoV1rfNeN3CyLKLgBvrnP6NTNJDrWPdRIdLqKNAn4YxnjRTlsi_to&usqp=CAU",
+        "membership": "Silver"
+      },
+      {
+        "name": "GreenLife Farms",
+        "address": "Farm Market Street, Benin City",
+        "phone": "+234 803 456 7890",
+        "website": "https://greenlifefarms.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhvMNYre_JITJjWkRwRUHJ6bjMQqvQVadSJf2zv5uXmNLPhl-qewssIPudxdW_njhIBBg&usqp=CAU",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Code Builders",
+        "address": "101 Dev Street, Benin City",
+        "phone": "+234 804 567 8901",
+        "website": "https://codebuilders.ng",
+        "image": "https://img.freepik.com/premium-vector/abstract-vector-code-builder-logo-brick-code-icon_642210-519.jpg",
+        "membership": "Gold"
+      },
+      {
+        "name": "Bright Minds School",
+        "address": "School Ave, Benin City",
+        "phone": "+234 805 678 9012",
+        "website": "https://brightminds.edu.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Krn-9-IjyacgEAkMJ7ZykTVJfOTDy9ih2VhYYetM4mNWrmAAGJvaFLmCL73pc88KCJY&usqp=CAU",
+        "membership": "Silver"
+      },
+      {
+        "name": "Naija Prints",
+        "address": "Printers Plaza, Benin City",
+        "phone": "+234 806 789 0123",
+        "website": "https://naijaprints.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2_C5KpzY1I0b3mRAdyDLGrHJJlqZUdzpnCj7tKUw0NWOLNskKNEejF03Y17QHJEeuIbM&usqp=CAU",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Elite Travels",
+        "address": "Airport Road, Benin City",
+        "phone": "+234 807 890 1234",
+        "website": "https://elitetravels.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBsAT3OU4Zhh5GaPgGAACbjmQFqGyQyCv1mxkgstONXdBBZ8cJxNtRWdux3wgQQD5PxP8&usqp=CAU",
+        "membership": "Silver"
+      },
+      {
+        "name": "SmartTech Solutions",
+        "address": "Innovation Close, Benin City",
+        "phone": "+234 808 123 4567",
+        "website": "https://smarttech.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6UQhrsz64A890UNO5rMCVxzp-fsHugXW09dPZSMtxpvFQRYkop5CcgfarZ6kwIfaC&usqp=CAU",
+        "membership": "Gold"
+      },
+      {
+        "name": "Fresh Market Foods",
+        "address": "123 Food Street, Benin City",
+        "phone": "+234 809 234 5678",
+        "website": "https://freshmarketfoods.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhclWeAvT0UCoEM6g9Rx-pFCPZHJxQdhTE2dglZIMexNiO6oPXgdS-ARgsdvpw-ZXlPr0&usqp=CAU",
+        "membership": "Silver"
+      },
+      {
+        "name": "Benin Clean Services",
+        "address": "Clean Ave, Benin City",
+        "phone": "+234 810 345 6789",
+        "website": "https://beninclean.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc2WHDYqXeuXG3Fbb-r_7tdpl4AnOyNh13Eg&s",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Royal Furniture",
+        "address": "Furniture Lane, Benin City",
+        "phone": "+234 811 456 7890",
+        "website": "https://royalfurniture.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMA9c7lSExEmTz8U1uOR9bjIKQaxQ-EAvhku0nerKpQGGLRWaTm7LxdLjiZiMYbsBfmTg&usqp=CAU",
+        "membership": "Silver"
+      },
+      {
+        "name": "Naija Auto Parts",
+        "address": "Parts Plaza, Benin City",
+        "phone": "+234 812 567 8901",
+        "website": "https://naijaautoparts.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKNztFqa3Zp5KOTGsiU0fZw5zJ7Sm0YtXCA&s",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Benin Fashion House",
+        "address": "Fashion Street, Benin City",
+        "phone": "+234 813 678 9012",
+        "website": "https://beninfashion.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4VNZWuals4AaOz6_2PfUzNFz7aANCOe05bg&s",
+        "membership": "Gold"
+      },
+      {
+        "name": "EduSmart Academy",
+        "address": "Academy Road, Benin City",
+        "phone": "+234 814 789 0123",
+        "website": "https://edusmart.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxWdX1p6qGL_lBGBVYcZO-CYzvRKneVJtp6-1vEMGd5h7P_qAxMzAMPkdDehqmv2jgjaA&usqp=CAU",
+        "membership": "Silver"
+      },
+      {
+        "name": "Healthy Life Pharmacy",
+        "address": "Health Street, Benin City",
+        "phone": "+234 815 890 1234",
+        "website": "https://healthylifepharmacy.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtyOHToB3XUNwgAxHb6SPDEpqQ8-dZ0nb63ev1dA_ufn2qlxNKoZcg5S7In-w5Pe6Su0&usqp=CAU",
+        "membership": "Gold"
+      },
+      {
+        "name": "FastLink Communications",
+        "address": "Telecom Way, Benin City",
+        "phone": "+234 816 901 2345",
+        "website": "https://fastlinkcom.ng",
+        "image": "https://cdn.theorg.com/857785f9-dcb7-441b-8c7d-0c9af190ba63_thumb.jpg",
+        "membership": "Silver"
+      },
+      {
+        "name": "Benin Fitness Club",
+        "address": "Fitness Blvd, Benin City",
+        "phone": "+234 817 012 3456",
+        "website": "https://beninfitness.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiRMQloWQP244bYoJBLQX5HJskxU7j4UW9AEoSn7cGP70KX_65meLVLj8IyAttkny99NQ&usqp=CAU",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Creative Minds Studio",
+        "address": "Art Street, Benin City",
+        "phone": "+234 818 123 4567",
+        "website": "https://creativeminds.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDK5XG5cyNrWKtd0v0xEKAIbxFZcHJ2L5v3XDJGxtyFeIdEjrQobaCrCogJvCb6QuLlD0&usqp=CAU",
+        "membership": "Gold"
+      },
+      {
+        "name": "Benin Events & Rentals",
+        "address": "Event Center, Benin City",
+        "phone": "+234 819 234 5678",
+        "website": "https://beninevents.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMu9eIVBpkQ1O_lSj85XeT8vfhx7QQUIieOhoqiku8mOLBoiQAOePKa02x6F7ZNoxIoxo&usqp=CAU",
+        "membership": "Silver"
+      },
+      {
+        "name": "Cyber World Cafe",
+        "address": "Net Street, Benin City",
+        "phone": "+234 820 345 6789",
+        "website": "https://cyberworld.ng",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRof0Faf2vLFvPpLWN2PjyQF1OPCQ3g-ii19C-fPx3mvzorsee4zDZG9WACZ1Ha9yaWWyc&usqp=CAU",
+        "membership": "Bronze"
+      }
+    ]
+  }

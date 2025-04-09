@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benin Chamber of Commerce - Thank You Page</title>
-    <meta name="description" content="WDD 230 - Web Frontend Development - Aghadiaye Amayanvbo Ernest - Thank you for joining the Benin Chamber of Commerce!">
+    <title>Benin Chamber of Commerce - Directory page | Aghadiaye Amayanvbo Ernest - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Aghadiaye Amayanvbo Ernest - chamber-Directory-page">
     <meta name="author" content="Aghadiaye Amayanvbo Ernest">
 
     
@@ -54,20 +54,26 @@
         <a id="menu" href="#"></a>
         <ul class="navigation">
             <li><a href="index.html">Home</a></li>
-            <!-- <li><a href="#">About</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Membership</a></li> -->
+            <!-- <li><a href="#">About</a></li> -->
+            <!-- <li><a href="#">Events</a></li> -->
+            <!-- <li><a href="#">Membership</a></li> -->
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="#">Directory</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <main class ="thankyou">
-        <h1>Thank You for Joining the Benin Chamber of Commerce!</h1>    
-        <p>Your membership application has been successfully received. We will get in touch with you shortly.!</p>
-        <a href="index.html" class="cta">Back to Home</a>
-
-      </main>
+    <main class="directory-page">
+        <div class="view-toggle">
+            <button id="grid-btn" title="Grid View">🔲 Grid</button>
+            <button id="list-btn" title="List View">📋 List</button>
+        </div>
+          
+    
+        <div id="directory" class="grid">
+          <!-- Member cards will be injected here by JavaScript -->
+        </div>
+    </main>
+      
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-info">
@@ -97,6 +103,6 @@
         </div>
     </footer>
     <script src="scripts/chamber.js"></script>
-    <script src="scripts/join.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
-</html>    
+</html>
