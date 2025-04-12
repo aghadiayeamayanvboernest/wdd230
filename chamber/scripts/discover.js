@@ -62,7 +62,7 @@ const quotes = [
  
 
 
-  // OpenWeatherMap API Variables
+// OpenWeatherMap API Variables
 const apiKey = "fcb9c4b2ba563009b0f04f129f01e52d"; // Replace with your valid OpenWeatherMap API key
 const city = "Benin City";
 const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;

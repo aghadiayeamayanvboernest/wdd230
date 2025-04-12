@@ -489,13 +489,13 @@ nav {
 }
 
 /* Company Spotlights */
-.company-spotlights {
+.spotlights {
     padding: 20px;
     background-color: #f9f9f9;
     text-align: center;
 }
 
-.company-spotlights h2 {
+.spotlights h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
     color: #003366;
@@ -507,7 +507,7 @@ nav {
     gap: 20px;
 }
 
-.spotlight {
+.spotlight-card{
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -521,26 +521,21 @@ nav {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.spotlight-image {
+.spotlight-card img {
     width: 100%;
+
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
-.spotlight-text h3 {
+.spotlight-cardt h3 {
     font-size: 1rem;
     margin-bottom: 10px;
     color:#003366;
 }
 
-.spotlight-text p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-    color:#003366;
-}
-
-.spotlight-button {
+.spotlight-card a {
     display: inline-block;
     padding: 10px 15px;
     font-size: 1rem;
@@ -552,7 +547,7 @@ nav {
     cursor: pointer;
 }
 
-.spotlight-button:hover {
+.spotlight-card a:hover {
     background-color: #FFFFFF;
 }
 
@@ -951,3 +946,23 @@ margin-bottom: 1rem;
 #directory.list .member-card:nth-child(even) {
 	background-color: #bed;
 }
+.banner {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  display: none;
+}
+
+.banner button {
+  position: absolute;
+  right: 0.1rem;
+  top: 1rem;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Etim Ventures",
+      "membership": "Gold",
+      "image": "images/etim.webp",
+      "website": "https://etimventures.com"
+    },
+    {
+      "name": "Oboh Organics",
+      "membership": "Silver",
+      "image": "images/oboh.webp",
+      "website": "https://obohorganics.com"
+    },
+    {
+      "name": "BrightPath Tech",
+      "membership": "Gold",
+      "image": "images/brightpath.webp",
+      "website": "https://brightpathtech.com"
+    },
+    {
+      "name": "Greens & Grains Market",
+      "membership": "Silver",
+      "image": "images/greengrains.webp",
+      "website": "https://greensgrains.com"
+    },
+    {
+      "name": "Nova Energy Solutions",
+      "membership": "Gold",
+      "image": "images/nova.webp",
+      "website": "https://novaenergy.com"
+    },
+    {
+      "name": "Zee Fashion Hub",
+      "membership": "Silver",
+      "image": "images/zee.webp",
+      "website": "https://zeefashionhub.com"
+    }
+  ]
+  
